@@ -7,7 +7,7 @@ library(xlsx)
 library(rJava)
 
 #Connect to Database
-mycon<-odbcConnect("mysql_data",uid="root",pwd="wangjy1996424")
+mycon<-odbcConnect("mysql_data",uid="root",pwd="********")
 sqlTables(mycon)
 
 #Load Data Set
