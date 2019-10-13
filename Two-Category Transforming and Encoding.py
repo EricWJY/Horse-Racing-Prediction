@@ -2,8 +2,6 @@
 import pandas as pd
 import numpy as np
 import random
-from sklearn import preprocessing
-import category_encoders as ce
 
 #Read the data file
 data = pd.read_csv("C:\\Users\\Eric\\Desktop\\df_preprocessed.csv")
